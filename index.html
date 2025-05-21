@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> HW - 06 (Nav with submenu)</title>
 
-    <link rel="stylesheet" href="css/style .css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,13 +23,22 @@
                     <ul>
                         <li class="parent"><a href="#">Desktop</a>
                             <ul class="sub_parent">
-                                <li><a href="#">Sub menu - 01</a></li>
+
+                                <li  class="has-sub"><a href="#">Sub menu - 01</a>
+                                   <ul class="sub_child">
+                                       <li><a href="#">Sub menu - A</a></li>
+                                       <li><a href="#">Sub menu - B</a></li>
+                                       <li><a href="#">Sub menu - C</a></li>
+                                   </ul>
+                                </li>
+
                                 <li><a href="#">Sub menu - 02</a></li>
                                 <li><a href="#">Sub menu - 03</a></li>
                             </ul>
                         
                         </li>
-                        <li><a href="#">Laptop</a></li>
+
+                        <li class="parent"><a href="#">Laptop</a></li>
                         <li><a href="#">Component</a></li>
                         <li><a href="#">Monitor</a></li>
                         <li><a href="#">UPS</a></li>
@@ -43,5 +52,6 @@
 
 </body>
 </html>
+
 
 
